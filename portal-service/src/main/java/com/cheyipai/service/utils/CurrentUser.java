@@ -17,7 +17,8 @@ public class CurrentUser {
     }
 
     public static User user() {
-        Subject subject = SecurityUtils.getSubject();
-        return (User) subject.getSession().getAttribute(current_user_key);
+//        Subject subject = SecurityUtils.getSubject();
+//        return (User) subject.getSession().getAttribute(current_user_key);
+        return null;
     }
 }
